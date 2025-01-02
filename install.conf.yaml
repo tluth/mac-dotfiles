@@ -1,11 +1,12 @@
-- clean: ['~']
-
+- clean: ["~"]
+- shell:
+    - chmod +x install_devtools.sh && ./install_devtools.sh
+- shell:
+    - chmod +x macos_settings.sh && ./macos_settings.sh
 - link:
     ~/.gitconfig: gitconfig
     ~/.ssh/config:
-        path: ssh/config
-        create: true
+      path: ssh/config
+      create: true
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
-
-

@@ -99,6 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias gll='git log --graph --pretty=oneline --abbrev-commit'
+
 
 # pnpm
 export PNPM_HOME="/Users/tomlutherborrow/Library/pnpm"
